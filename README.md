@@ -54,7 +54,7 @@ Opté por separar el sistema en Entidad, Control e Interfaz para seguir una arqu
 
 La relación entre Equipo y Jugador se modeló usando agregación (el rombo hueco). Esto significa que un Equipo 'contiene' o agrupa Jugadores. La cardinalidad 1 en Equipo y 0..* en Jugador se eligió porque un equipo debe existir para tener jugadores, pero puede ser registrado (existir como objeto) antes de tener jugadores asignados (estado de 0 jugadores), y puede tener muchos jugadores a lo largo del tiempo. Esto encaja con el flujo de registrar primero el equipo y luego añadirle jugadores.
 
-Use relaciones de dependencia (<use>, la línea discontinua con flecha) para mostrar cómo interactúan las capas: VistaAdmin necesita los métodos de GestorEquipos para iniciar las acciones, y GestorEquipos, a su vez, necesita las clases Equipo y Jugador para acceder a sus datos y ejecutar la lógica (buscarlos, crearlos, modificarlos).
+Use relaciones de dependencia (use, la línea discontinua con flecha) para mostrar cómo interactúan las capas: VistaAdmin necesita los métodos de GestorEquipos para iniciar las acciones, y GestorEquipos, a su vez, necesita las clases Equipo y Jugador para acceder a sus datos y ejecutar la lógica (buscarlos, crearlos, modificarlos).
 
 Es importante mencionar que este es un diseño simplificado, enfocado en cumplir los requisitos del ejercicio (AD3), sin entrar en todos los detalles que tendría un sistema real completo.
 
