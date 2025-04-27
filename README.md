@@ -67,7 +67,7 @@ He comprendido mejor la utilidad de UML, viendo cómo los diagramas de casos de 
 
 Queda más clara la importancia de analizar los requisitos antes de empezar a programaar.
 
-Aplicar los estereotipos <Entity>, <Control> e <Interface> me ha ayudado cómo organizar el software de forma más estructurada.
+Aplicar los estereotipos '<Entity>', <Control> e <Interface> me ha ayudado cómo organizar el software de forma más estructurada.
 
 Reflexionar sobre las relaciones entre clases (agregación, dependencia) y sus cardinalidades me ha hecho pensar cómo interactúan los diferentes componentes del sistema.
 
