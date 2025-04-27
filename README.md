@@ -60,7 +60,7 @@ Es importante mencionar que este es un diseño simplificado, enfocado en cumplir
 
 ### Proceso de Diseño 
 
-Además de los diagramas finales presentados, el proceso incluyó la elaboración de bocetos y análisis intermedios. [Documento UML eSports (PDF)](UML eSports.pdf)
+Además de los diagramas finales presentados, el proceso incluyó la elaboración de bocetos y análisis intermedios. Documento UML eSports (PDF)
 
 
 ## Conclusiones
