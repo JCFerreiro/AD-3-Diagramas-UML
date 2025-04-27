@@ -48,7 +48,7 @@ Se añadió el caso de uso Seleccionar Equipo y se conectó mediante una relaci�
 
 ### Diagrama de Clases:
 
-Identifiqué las clases principales basándome en  la estructura sugerida. Equipo y Jugador son las Entidades (<<Entity>>) que almacenan la información principal. Cree GestorEquipos como la clase de Control (<Control>) para manejar la lógica de negocio relacionada con equipos y jugadores, actuando como intermediario. Finalmente, VistaAdmin representa la capa de Interfaz (<<Interface>>) a través de la cual el administrador interactúa con el sistema.
+Identifiqué las clases principales basándome en  la estructura sugerida. Equipo y Jugador son las Entidades (Entity) que almacenan la información principal. Cree GestorEquipos como la clase de Control (Control) para manejar la lógica de negocio relacionada con equipos y jugadores, actuando como intermediario. Finalmente, VistaAdmin representa la capa de Interfaz (Interface) a través de la cual el administrador interactúa con el sistema.
 
 Opté por separar el sistema en Entidad, Control e Interfaz para seguir una arquitectura modular. Esto ayuda a organizar mejor el sistema, separando la presentación (Vista), la lógica (Control) y los datos (Entidad). Así, es más fácil realizar modificaciones y mantener el sistema en el futuro, ya que cada capa tiene una responsabilidad bien definida.
 
@@ -67,7 +67,7 @@ He comprendido mejor la utilidad de UML, viendo cómo los diagramas de casos de 
 
 Queda más clara la importancia de analizar los requisitos antes de empezar a programaar.
 
-Aplicar los estereotipos '<Entity>', <Control> e <Interface> me ha ayudado cómo organizar el software de forma más estructurada.
+Aplicar los estereotipos Entity, Control e <Interface> me ha ayudado cómo organizar el software de forma más estructurada.
 
 Reflexionar sobre las relaciones entre clases (agregación, dependencia) y sus cardinalidades me ha hecho pensar cómo interactúan los diferentes componentes del sistema.
 
