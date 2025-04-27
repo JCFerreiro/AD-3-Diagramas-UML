@@ -58,6 +58,10 @@ Use relaciones de dependencia (use, la línea discontinua con flecha) para mostr
 
 Es importante mencionar que este es un diseño simplificado, enfocado en cumplir los requisitos del ejercicio (AD3), sin entrar en todos los detalles que tendría un sistema real completo.
 
+### Proceso de Diseño 
+
+Además de los diagramas finales presentados, el proceso incluyó la elaboración de bocetos y análisis intermedios. [Documento UML eSports (PDF)](UML eSports.pdf)
+
 
 ## Conclusiones
 
