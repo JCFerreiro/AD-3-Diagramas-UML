@@ -30,18 +30,7 @@ Este diagrama de clases está diseñado para implementar las funcionalidades, or
 
 ## Estructura del Proyecto
 
-torneo-esports-uml/
-├── diagrams/
-│ ├── casos-uso.png
-│ └── clases.png
-├── src/
-│ └── es/empresa/torneo/
-│ ├── modelo/ # Clases de entidad (Equipo.java, Jugador.java)
-│ ├── control/ # Clases de control (GestorEquipos.java)
-│ ├── vista/ # Clases de interfaz (VistaAdmin.java)
-│ └── Main.java # Punto de entrada (Opcional para UML)
-├── .gitignore
-└── README.md
+![Estructura del Proyecto](diagrams/estructura.png)
 
 ## Instalación y Ejecución
 
