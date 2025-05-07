@@ -16,7 +16,7 @@ En esta actividad (AD-3), nos hemos enfocado únicamente en el modelado UML para
 
 ### Diagrama de Casos de Uso
 
-Este diagrama de casos de uso muestra cómo funciona la 'Gestión de Equipos y Jugadores', destacando al Administrador como el actor principal y las interacciones clave, incluyendo la relación `<<include>>` necesaria.
+Este diagrama de casos de uso muestra cómo funciona la 'Gestión de Equipos y Jugadores', destacando al Administrador como el actor principal y las interacciones clave, incluyendo la relación `include` necesaria.
 
 ![Diagrama de casos de uso](diagrams/casos-uso.png)
 
@@ -44,7 +44,7 @@ Elegí al Administrador como actor porque las funciones solicitadas (registrar e
 
 Incluimos los casos de uso Registrar Equipo, Añadir Jugador a Equipo y Consultar Lista de Equipos y Jugadores porque son las funcionalidades específicas requeridas en el enunciado del ejercicio para la 'Gestión de equipos y jugadores'. Representan las interacciones clave que necesitamos modelar.
 
-Se añadió el caso de uso Seleccionar Equipo y se conectó mediante una relación <<include>> desde Añadir Jugador a Equipo. Esto se hizo, para añadir un jugador a un equipo, siempre es necesario primero identificar o elegir a qué equipo se va a añadir. La relación <<include>> en UML sirve precisamente para indicar esta dependencia funcional obligatoria y reutilizable.
+Se añadió el caso de uso Seleccionar Equipo y se conectó mediante una relación include desde Añadir Jugador a Equipo. Esto se hizo, para añadir un jugador a un equipo, siempre es necesario primero identificar o elegir a qué equipo se va a añadir. La relación include en UML sirve precisamente para indicar esta dependencia funcional obligatoria y reutilizable.
 
 ### Diagrama de Clases:
 
